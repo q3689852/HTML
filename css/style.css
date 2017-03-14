@@ -1,0 +1,6 @@
+#work{width: 1000px;height: 70px;background: olive;margin: 20px auto;}
+.head{width: 100%;height: 100px;background: khaki;}
+.body{width:100%;height: 500px;background: orange;}
+.laft_body{width: 30%;height: 100%;background: darkcyan;float: left;}
+.right_body{width: 70%;height: 100%;background: navajowhite;float: left;}
+.foot{width: 100%;height: 100px;background: khaki;} /* height 从  head  里借30px */
