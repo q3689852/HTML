@@ -2,5 +2,15 @@
 .head{width: 100%;height: 100px;background: khaki;}
 .body{width:100%;height: 500px;background: orange;}
 .laft_body{width: 30%;height: 100%;background: darkcyan;float: left;}
-.right_body{width: 70%;height: 100%;background: navajowhite;float: left;}
-.foot{width: 100%;height: 100px;background: khaki;} /* height 从  head  里借30px */
+.mode{width: 100%;height: 20%;border: 1px;border:0px;}     								 /*有5个 用来包含input*/
+.button{width:100px;height:40px;margin:30px 100px;border:0px;}
+
+#right_body{width: 70%;height: 100%;background: navajowhite;float: left;display: none;}  /*加载css的时候会隐藏,加载js释放     js第8行*/
+#right_body div {display: none;}
+
+
+.foot{width: 100%;height: 100px;background: khaki;}
+.active{width: 100px;height: 100px;background: red;}      /*被选中的 div 的class变成active*/
+
+
+
