@@ -1,12 +1,12 @@
 #all{height: 710px;width: 1000px;margin: 20px auto}
 #work{width: 1000px;}
-.logo{height: 100px; margin-left: 10px;padding:0px;}
-.head{width: 100%;height: 110px;}
+.logo{height: 100px; padding:0px;margin-left: 30px;}
+.head{width: 100%;height: 110px;margin-left: 40px;}
 .body{width:100%;height: 500px;}  /* 1000 500*/
 
 .laft_body{width: 20%;height: 100%;float: left;} /*200 500*/
 .mode{width: 100%;height: 20%;border:0px;}     		/*200 100*/	 /*有5个 用来包含button*/
-.button{width:150px;height:50px;margin:25px 50px;border: 0px;border-radius:25px 0px 0px 25px;}
+.button{width:150px;height:50px;margin:25px 50px;border: 0px;border-radius:25px 0px 0px 25px;outline:none;cursor:pointer;}/*去掉点击后的边框 鼠标经过变小手*/
 
 #right_body{width: 80%;height: 100%;background-image: url(../img/TongZhi.jpg);float: left;display: none;}  /*加载css的时候会隐藏,加载js释放     js第8行*/
 #right_body div {width: 100%;height: 500px;background: red;display: none;} 									/*此div包含active*/
