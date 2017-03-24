@@ -9,8 +9,9 @@
 .button{width:150px;height:50px;margin:25px 50px;border: 0px;border-radius:25px 0px 0px 25px;outline:none;cursor:pointer;}/*去掉点击后的边框 鼠标经过变小手*/
 
 #right_body{width: 79%;height: 100%;float: left;display: none;border: 1px solid black;}  /*加载css的时候会隐藏,加载js释放     js第8行*/
-#right_body > div {width: 100%;height: 500px;display: none;} 									/*此div包含active*/
-
+#right_body > div {width: 100%;height: 500px;display: none;position:relative ;} 									/*此div包含active*/
+.mode_img{width: 400px;height: 500px;border: blue solid 1px;float: left;}
+.mode_button{border: 1px solid coral;width: 100px;height: 40px;float: left;position: relative;left: 230px;top:420px;}
 
 .foot{width: 100%;height: 10px;}
 .foot_p{text-align: center;}
