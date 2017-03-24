@@ -3,7 +3,7 @@ window.onload=function()
 			var oDiv = document.getElementsByClassName("body")[0];
 			var oIpt = oDiv.getElementsByTagName("input");
 			var r_div = document.getElementById("right_body");
-			var aDiv = r_div.getElementsByTagName("div");
+			var aDiv = r_div.getElementsByClassName("mode_father");
 			
 			r_div.style="display:block";
 			
