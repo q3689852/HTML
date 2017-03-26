@@ -86,21 +86,19 @@ window.onload=function()
 		
 		}
 		
+		function helpson1(){
+			window.open("http://www.2345.com/?k43252177");
+		}
 		function helpson2(){
-			swindow.open("http://www.2345.com/?k43252177");
-		}		
+			window.open("http://pan.baidu.com/s/1hr4LVTU");
+		}	
 		function helpson3(){
-			window.open("https://jq.qq.com/?_wv=1027&k=42eHat9");
-		}
-	
-		function helpson4(){
-			window.open("http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=TX57dXR1eH8NPDxjLiIg");
-		}
-		function helpson6(){
 			window.open("http://suo.im/");
 		}
-		function notnone(){
-			var notnone= document.getElementsByClassName("notice");
-			notnone[0].style.display="none";
-			make[0].style.display="block";
+		function helpson4(){
+			window.open("https://jq.qq.com/?_wv=1027&k=42eHat9");
+		}	
+		function helpson5(){
+			window.open("http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=TX57dXR1eH8NPDxjLiIg");
 		}
+		
