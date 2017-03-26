@@ -23,3 +23,16 @@
 .mode_text{width: 100px;}
 .mode2_text{width:250px;}
  td {text-align: center;}
+ 
+ .help{width: 100px;height:483px;position: absolute;top: 150px;left: 0px;}
+.helpson{height: 50px;width: 100%;text-align: center;line-height: 50px;border:1px solid greenyellow ;font-family: "微软雅黑";color: indianred;}
+.helpson:hover
+	{
+		
+	height: 50px;
+	width: 150%;
+	background: darkcyan;
+	cursor:pointer;
+	font-size: 25px;
+	color: yellow;
+	}
