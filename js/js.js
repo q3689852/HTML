@@ -72,7 +72,7 @@ window.onload = function() {
 		+"&quot;"+"1"+"&quot;"+" flag="+"&quot;"+"9"+"&quot;"+" brief="+"&quot;"+"zhaiu.cn"+"&quot;"+"&gt;"+"&lt;"+"item layout="+"&quot;"+"5"+"&quot;"+"&gt;"+"&lt;"
 		+"picture cover="+"&quot;"
 		var b = "&quot;"+"/"+"&gt;"+"&lt;"+"/"+"item"+"&gt;"+"&lt;"+"item layout="+"&quot;"+"0"+"&quot;"+"&gt;"+"&lt;"+"summary size="+"&quot;"+"25"+"&quot;"+" color="+"&quot;"+"#9B30FF"+"&quot;"+"&gt;"
-		var c = "&lt;"+"/"+"summary"+"&gt;"+"&lt;"+"hr/"+"&gt;"+"&lt;"+"/item"+"&gt;"+"&lt;"+"source name="+"&quot;"+"&quot;"+" icon="+"&quot;"+"&quot;"+" action="+"&quot;"+"&quot;"+" appid="+"&quot;"+"-1"+"&quot;"
+		var c = "&lt;"+"/"+"summary"+"&gt;"+"&lt;"+"/item"+"&gt;"+"&lt;"+"source name="+"&quot;"+"&quot;"+" icon="+"&quot;"+"&quot;"+" action="+"&quot;"+"&quot;"+" appid="+"&quot;"+"-1"+"&quot;"
 		+"/"+"&gt;"+"&lt;"+"/msg"+"&gt;"+"&nbsp;"
 		document.write(a + Tipt[0].value + b + Tipt[1].value + c);
 	}
