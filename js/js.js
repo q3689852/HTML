@@ -66,7 +66,16 @@ window.onload = function() {
 
 	}
 
-
+	oMo_but[2].onclick = function(){
+		var Tipt = r_div.getElementsByClassName("mode3_text");
+		var a = "&lt;"+"?xml version="+"&quot;"+"1.0"+"&quot;"+" encoding="+"&quot;"+"UTF-8"+"&quot;"+" standalone="+"&quot;"+"yes"+"&quot;"+"?"+"&gt;"+"&lt;"+"msg serviceID="+"&quot;"+"83"+"&quot;"+" templateID="
+		+"&quot;"+"1"+"&quot;"+" flag="+"&quot;"+"9"+"&quot;"+" brief="+"&quot;"+"zhaiu.cn"+"&quot;"+"&gt;"+"&lt;"+"item layout="+"&quot;"+"5"+"&quot;"+"&gt;"+"&lt;"
+		+"picture cover="+"&quot;"
+		var b = "&quot;"+"/"+"&gt;"+"&lt;"+"/"+"item"+"&gt;"+"&lt;"+"item layout="+"&quot;"+"0"+"&quot;"+"&gt;"+"&lt;"+"summary size="+"&quot;"+"25"+"&quot;"+" color="+"&quot;"+"#9B30FF"+"&quot;"+"&gt;"
+		var c = "&lt;"+"/"+"summary"+"&gt;"+"&lt;"+"hr/"+"&gt;"+"&lt;"+"/item"+"&gt;"+"&lt;"+"source name="+"&quot;"+"&quot;"+" icon="+"&quot;"+"&quot;"+" action="+"&quot;"+"&quot;"+" appid="+"&quot;"+"-1"+"&quot;"
+		+"/"+"&gt;"+"&lt;"+"/msg"+"&gt;"+"&nbsp;"
+		document.write(a + Tipt[0].value + b + Tipt[1].value + c);
+	}
 
 
 
